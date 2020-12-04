@@ -59,11 +59,11 @@ const MainPage = ({ history }) => {
         <Table borderless className='w-75'>
           <thead className='table-header'>
             <tr>
-              <th></th>
+              <th className='table-column-min'></th>
               <th className='table-heading'>Name</th>
               <th className='table-heading'>Phone Number</th>
               <th className='table-heading'>Email</th>
-              <th></th>
+              <th className='table-column-min'></th>
             </tr>
           </thead>
           <tbody>

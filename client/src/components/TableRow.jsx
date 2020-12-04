@@ -11,7 +11,7 @@ const TableRow = ({ user, deleteHandler }) => {
   }
   return (
     <tr>
-      <td className='table-data'>
+      <td className='table-data table-column-min'>
         <span className='bg-orange p-2 rounded-circle'>
           {convertName(user.name)}
         </span>
@@ -19,7 +19,7 @@ const TableRow = ({ user, deleteHandler }) => {
       <td className='table-data'>{user.name}</td>
       <td className='table-data'>{user.phone}</td>
       <td className='table-data'>{user.email}</td>
-      <td>
+      <td className='table-column-min'>
         <img
           src={trash}
           role='button'
