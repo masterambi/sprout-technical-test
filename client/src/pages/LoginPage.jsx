@@ -28,7 +28,6 @@ const LoginPage = ({ history }) => {
   }, [error])
 
   const onSubmit = (data) => {
-    console.log(data)
     dispatch(login(data.email, data.password))
   }
 

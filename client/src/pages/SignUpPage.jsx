@@ -31,7 +31,6 @@ const SignUpPage = ({ history }) => {
   }, [error])
 
   const onSubmit = (data) => {
-    console.log(data)
     dispatch(signUp(data.name, data.phone, data.email, data.password))
   }
 
